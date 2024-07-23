@@ -20,4 +20,11 @@ function descriptografar() {
     document.getElementById('mensagemFinal').value = mensagemDescriptografada;
 }
 
-function copiarMensagem() {}
+async function copiarMensagem() {
+    let mensagemCopiada = document.getElementById('mensagemFinal').value;
+    try {
+        await navigator.clipboard.writeText(mensagemCopiada);
+    } catch (err) {
+        console.error('Erro ao copiar o texto: ', err);
+    }
+}

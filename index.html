@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curtain</title>
 </head>
 <body>
-    
+    <header>
+        <img src="" alt="imagem de um espião">
+    </header>
+    <div>
+        <textarea name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
+        <button onclick="criptografar()" id="criptografar">Criptografar</button>
+        <button onclick="descriptografar()" id="descriptografar">Descriptografar</button>
+    </div>
+    <div>
+        <img src="" alt="imagem de uma lupa">
+        <textarea name="mensagemFinal" id="mensagemFinal" readonly></textarea>
+        <button onclick="copiarMensagem()" id="copiarMensagem">Copiar</button>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>

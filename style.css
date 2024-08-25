@@ -16,9 +16,33 @@ body {
 .conteudo__mensagem {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .conteudo__resposta {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 10px;
+    width: 60%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.423);
+    cursor: pointer;
+    transition: background .2s;
+}
+
+button:hover {
+    background-color: rgb(57, 57, 57);
+}
+
+button:active {
+    background-color: white;
+    color: black;
 }

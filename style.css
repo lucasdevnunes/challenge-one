@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +12,10 @@ body {
 .conteudo {
     display: flex;
     justify-content:space-around;
-    margin: 15%;
+    margin: 10vh;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .conteudo__mensagem {
@@ -27,7 +32,7 @@ body {
     gap: 15px;
 }
 
-button {
+.btn {
     border: 1px solid white;
     border-radius: 7px;
     padding: 10px;
@@ -36,13 +41,50 @@ button {
     background-color: rgba(0, 0, 0, 0.423);
     cursor: pointer;
     transition: background .2s;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 
-button:hover {
+.btn:hover {
     background-color: rgb(57, 57, 57);
 }
 
-button:active {
+.btn:active {
     background-color: white;
     color: black;
+}
+
+.ipt {
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 30vw;
+    height: 50vh;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.rsp {
+    border: 1px solid white;
+    border-radius: 7px;
+    width: 30vw;
+    height: 50vh;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
 }

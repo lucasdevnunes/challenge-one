@@ -12,14 +12,14 @@
     </header>
     <main class="conteudo">
         <div class="conteudo__mensagem">
-            <textarea name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
-            <button onclick="criptografar()" id="criptografar">Criptografar</button>
-            <button onclick="descriptografar()" id="descriptografar">Descriptografar</button>
+            <textarea class="ipt" name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
+            <button class="btn" onclick="criptografar()" id="criptografar">Criptografar</button>
+            <button class="btn" onclick="descriptografar()" id="descriptografar">Descriptografar</button>
         </div>
         <div class="conteudo__resposta">
-            <img src="" alt="imagem de uma lupa">
-            <textarea name="mensagemFinal" id="mensagemFinal" readonly></textarea>
-            <button onclick="copiarMensagem()" id="copiarMensagem">Copiar</button>
+            <!-- <img src="" alt="imagem de uma lupa"> -->
+            <textarea class="rsp" name="mensagemFinal" id="mensagemFinal" readonly></textarea>
+            <button class="btn" onclick="copiarMensagem()" id="copiarMensagem">Copiar</button>
         </div>
     </main>
     <script src="app.js"></script>

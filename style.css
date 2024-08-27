@@ -9,13 +9,30 @@ body {
     background-color: rgb(31, 30, 30);
 }
 
-.conteudo {
+header {
     display: flex;
-    justify-content:space-around;
-    margin: 10vh;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 3.5vh;
+}
+
+.logo_do_app {
+    width: 5vw;
+}
+
+h1 {
+    color: yellow;
     font-family: "Jersey 10", sans-serif;
     font-weight: 400;
     font-style: normal;
+    font-size: 4vw;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
 }
 
 .conteudo__mensagem {
@@ -33,7 +50,7 @@ body {
 }
 
 .btn {
-    border: 1px solid white;
+    border: 1px solid yellow;
     border-radius: 7px;
     padding: 10px;
     width: 60%;
@@ -45,7 +62,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .btn:hover {
@@ -57,11 +74,15 @@ body {
     color: black;
 }
 
+.aviso {
+    color: white;
+}
+
 .ipt {
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 0);
     border-radius: 7px;
-    width: 30vw;
-    height: 50vh;
+    width: 25vw;
+    height: 45vh;
     outline: none;
     background-color: black;
     color: white;
@@ -70,14 +91,14 @@ body {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .rsp {
-    border: 1px solid white;
+    border: 1px solid yellow;
     border-radius: 7px;
-    width: 30vw;
-    height: 50vh;
+    width: 25vw;
+    height: 45vh;
     outline: none;
     background-color: black;
     color: white;

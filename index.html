@@ -8,11 +8,13 @@
 </head>
 <body>
     <header>
-        <img src="" alt="imagem de um espião">
+        <img class="logo_do_app" src="assets\logo_do_app.png" alt="imagem de um espião">
+        <h1>Curtain - O Decodificador de texto</h1>
     </header>
     <main class="conteudo">
         <div class="conteudo__mensagem">
             <textarea class="ipt" name="mensagem" id="mensagem" rows="5" cols="30"></textarea>
+            <label class="aviso" for="mensagem">* Apenas letras minúsculas e sem acentos.</label>
             <button class="btn" onclick="criptografar()" id="criptografar">Criptografar</button>
             <button class="btn" onclick="descriptografar()" id="descriptografar">Descriptografar</button>
         </div>
